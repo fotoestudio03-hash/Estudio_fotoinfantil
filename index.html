@@ -170,6 +170,14 @@
     .emotional-slider { aspect-ratio: 16/9; order: -1; } /* Un poco más bajo en móvil */
     .emotional-text h2 { font-size: 2rem; }
     .gallery-grid { grid-template-columns: 1fr; }
+
+    /* CORRECCIÓN DE TAMAÑO DE GALERÍA MÓVIL */
+    .lum-lightbox { z-index: 10001 !important; }
+    .lum-img {
+      max-width: 90vw !important;
+      max-height: 80vh !important;
+      object-fit: contain !important;
+    }
   }
 </style>
 </head>
